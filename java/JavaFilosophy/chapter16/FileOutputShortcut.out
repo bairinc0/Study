@@ -1,0 +1,11 @@
+1: import java.io.*;
+2: 
+3: public class MemoryInput{
+4:     public static void main(String [] args) throws IOException{
+5:         StringReader in=new StringReader(BufferedInputFile.read("MemoryInput.java"));
+6:         int c;
+7:         while ((c=in.read())!=-1){
+8:             System.out.print((char)c);
+9:         }
+10:     }
+11: }
