@@ -22,17 +22,23 @@ class RedHeadDuck extends Duck{
 }
 class RubberDuck extends Duck{
     public void display(){
+        System.out.println("I'm rubber duck!");        
+    }
+	public void quack(){ 
+		///
+    } 
+	public void fly(){        
+    }      
+}
+class DecoyDuck extends Duck{
+	public void display(){
         System.out.println("I'm best hunter friend!");        
     }
     public void fly(){        
     }
-    public void quack(){
-               
-    }
-    public void swim(){
-               
-    }
-    
+    public void quack(){ 
+		///
+    }    
 }
 public class Begin{
     public static void test(Duck d){
