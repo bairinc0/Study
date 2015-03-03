@@ -1,4 +1,4 @@
-package freeman.weatherData.weather;
+package freeman.observer.weatherData.weather;
 
 public class CurrentConditionsDisplay implements Observer,DisplayElement{
     private float temperature;

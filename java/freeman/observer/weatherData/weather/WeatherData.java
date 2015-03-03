@@ -1,15 +1,15 @@
-package freeman.weatherData.weather;
+package freeman.observer.weatherData.weather;
 
-import java.util.*;
+import java.util.ArrayList;
 
 public class WeatherData implements Subject {
-	private ArrayList observers;
+	private ArrayList <Observer> observers;
 	private float temperature;
 	private float humidity;
 	private float pressure;
 	
 	public WeatherData() {
-		observers = new ArrayList();
+		observers = new ArrayList<Observer> ();
 	}
 	
 	public void registerObserver(Observer o) {
@@ -25,7 +25,7 @@ public class WeatherData implements Subject {
 	
 	public void notifyObservers() {
 		for (int i = 0; i < observers.size(); i++) {
-			Observer observer = (Observer)observers.get(i);
+			Observer observer = observers.get(i);
 			observer.update(temperature, humidity, pressure);
 		}
 	}

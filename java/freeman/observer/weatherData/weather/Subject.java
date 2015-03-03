@@ -1,4 +1,4 @@
-package freeman.weatherData.weather;
+package freeman.observer.weatherData.weather;
 
 public interface Subject{
     public void registerObserver(Observer o);
