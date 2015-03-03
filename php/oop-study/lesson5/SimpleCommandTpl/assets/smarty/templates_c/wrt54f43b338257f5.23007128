@@ -1,0 +1,49 @@
+<?php /* Smarty version Smarty-3.1.15, created on 2015-03-02 14:28:03
+         compiled from "application\view\header.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:40154f43a4de44c79-57760057%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '0223bddefc8a2898ef672c9b99ea64024ba616d8' => 
+    array (
+      0 => 'application\\view\\header.tpl',
+      1 => 1425292080,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '40154f43a4de44c79-57760057',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_54f43a4de6d462_90606469',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_54f43a4de6d462_90606469')) {function content_54f43a4de6d462_90606469($_smarty_tpl) {?><html>
+<html lang="ru">
+<head>    
+	<meta charset="utf-8ru">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<title>Главная страница</title>
+</head>
+<body>
+<div class="container">
+	<div id="header" class="row">
+		<h1 class="text-center">Header</h1>
+	</div>
+<!--тут будет основная часть-->
+	<div id="content" class="row">
+		<div class="col-md-3">
+			<h3 class="text-center">Left Menu</h3>
+			<hr>
+			<ul style="list-style:none;">
+				<li><a href="#">Главная страница</a></li>
+				<li><a href="#">Показать новости</a></li>
+				<li><a href="#">Показать Студентов</a></li>
+				<li><a href="#">Показать Группы</a></li>
+			</ul>
+		</div>
+	<!--вот только по сути хидер кончается тут-->
+		<div class="col-md-9"><?php }} ?>

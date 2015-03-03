@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<title>Главная страница</title>
+</head>
+<body>
+<div class="container">
+	<div id="header" class="row">
+		<h1 class="text-center">Header</h1>
+	</div>
+<!--тут будет основная часть-->
+	<div id="content" class="row">
+		<div class="col-md-3">
+			<h3 class="text-center">Left Menu</h3>
+			<hr>
+			<ul style="list-style:none;">
+				<li><a href="#">Главная страница</a></li>
+				<li><a href="#">Показать новости</a></li>
+				<li><a href="#">Показать Студентов</a></li>
+				<li><a href="#">Показать Группы</a></li>
+			</ul>
+		</div>
+	<!--вот только по сути хидер кончается тут-->
+		<div class="col-md-9">
+			<p>
+				Список студентов:<br>
+				<table class="table table-bordered">
+					<tr>
+						<th>Фамилия</th>
+						<th>Имя</th>
+						<th>Отчество</th>
+					</tr>
+					<tr>
+						<td>Иванов</td>
+						<td>Иван</td>
+						<td>Иванович</td>
+					</tr>
+					<tr>
+						<td>Иванов</td>
+						<td>Иван</td>
+						<td>Иванович</td>
+					</tr>
+					<tr>
+						<td>Иванов</td>
+						<td>Иван</td>
+						<td>Иванович</td>
+					</tr>
+					<tr>
+						<td>Иванов</td>
+						<td>Иван</td>
+						<td>Иванович</td>
+					</tr>
+				</table>					
+			</p>
+		</div>
+	</div>
+	<!--тут будет футер-->	
+	<div id="footer" class="row">
+		<h1 class="text-center">Footer</h1>
+	</div>
+</div>
+<!-- Подключаем JQuery и bootstrap -->	
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>	
+</body>
+</html>
