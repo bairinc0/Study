@@ -1,7 +1,7 @@
 class Product{
 	private String name;
 	private double price;	
-	protected discount;
+	protected double discount;
 	void setName(String name){
 		this.name=name;
 	}
